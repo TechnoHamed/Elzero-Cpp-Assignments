@@ -40,13 +40,14 @@ int main () {
 
 > Website Assignments
 
-* [X] Assignment From [1 - 8]
+* [X] Intro, Syntax & Comments Assignment From [1 - 8]
 * [X] Assignment From [9 - 15]
 * [X] Assignment From [16 - 23]
 * [X] Assignment From [24 - 29]
 * [X] Assignment From [30 - 35]
 * [X] Assignment From [36 - 37]
 * [X] Assignment From [38 - 46]
+* [ ] Assignment From [47 - 55]
 * [ ] Assignment From [47 - 55]
 
 > Videos Assignments
