@@ -1,57 +1,35 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-// Test Case 1
+int main()
+{
+/*========== Test Case 1 ==========
+"No Age Is Not Ok"
+"No Points Is Not Ok"*/
 int age = 18;
 int points = 450;
+cout <<"\n========== Case 1 ========== \n";
+cout << ((age>18)?"Yes Age Is Ok":"No Age Is Not Ok")<<endl;
+cout << ((points>500)?"Yes Points IS Ok":"No Points IS Not Ok") << endl;
 
-// Output
-// "No Age Is Not Ok"
-// "No Points Is Not Ok"
+/*========== Test Case 2 ==========
+"Yes Age Is Ok"
+"No Points Is Not Ok"*/
+ age = 20;
+ points = 450;
+cout <<"\n========== Case 2 ========== \n";
+cout << ((age>18)?"Yes Age Is Ok":"No Age Is Not Ok")<<endl;
+cout << ((points>500)?"Yes Points IS Ok":"No Points IS Not Ok") << endl;
 
-// Test Case 2
-int age = 20;
-int points = 450;
 
-// Output
-// "Yes Age Is Ok"
-// "No Points Is Not Ok"
+/*========== Test Case 2 ==========
+"Yes Age Is Ok"
+"Yes Points Is Ok"*/
+age = 20;
+points = 650;
+cout <<"\n========== Case 3 ========== \n";
+cout << ((age>18)?"Yes Age Is Ok":"No Age Is Not Ok")<<endl;
+cout << ((points>500)?"Yes Points IS Ok":"No Points IS Not Ok") << endl;
 
-// Test Case 3
-int age = 20;
-int points = 650;
-
-// Output
-// "Yes Age Is Ok"
-// "Yes Points Is Ok"
-
-if (age > 18)
-{
-    cout << "Yes Age Is Ok" << endl;
-    
-    if (points > 500)
-    {
-        cout << "Yes Points Is Ok" << endl;
-    }
-    else
-    {
-        cout << "No Points Is Not Ok" << endl;
-    }
-}
-else
-{
-    cout << "No Age Is Not Ok" << endl;
-    
-    if (points > 500)
-    {
-        cout << "Yes Points Is Ok" << endl;
-    }
-    else
-    {
-        cout << "No Points Is Not Ok" << endl;
-    }
-}
-
-    return 0;
+return 0;
 }
