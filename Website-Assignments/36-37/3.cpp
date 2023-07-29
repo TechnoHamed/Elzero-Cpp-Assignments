@@ -3,24 +3,25 @@ using namespace std;
 
 int main()
 {
-    int num;
-    cin >> num;
+  int num;
+  cin >> num;
 
-    switch(num) {
-        case 10:
-            cout << "Case 1";
-            break;
-        case 20:
-            cout << "Case 2";
-            break;
-        case 30:
-        case 31:
-        case 32:
-            cout << "Case 3";
-            break;
-        default:
-            cout << "Invalid Number";
-    }
+switch(num){
+  case 10:
+    cout<<"Case 1";
+  break;
 
-    return 0;
+  case 19 ... 21: //range from 19 to 21 (19-20-21)
+    cout<<"Case 2";
+  break;
+
+  case 29 ... 33:
+    cout<<"Case 3";
+  break;
+  
+  default:
+  cout <<"Invalid Number";
+}
+
+  return 0;
 }
